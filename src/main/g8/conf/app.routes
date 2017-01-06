@@ -1,4 +1,4 @@
 # microservice specific routes
 
 
-GET        /hello-world             $mainPackage$$name$.controllers.HelloWorld.helloWorld
+GET        /hello-world             $mainPackage$$name$.controllers.MicroserviceHelloWorld.hello
